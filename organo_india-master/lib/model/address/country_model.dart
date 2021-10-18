@@ -67,19 +67,19 @@ class CountryModelData {
 } 
 */
 
-  List<CountryModelDataCountry?>? country;
+  List<CountryModelDataCountry>? country;
 
   CountryModelData({
     this.country,
   });
   CountryModelData.fromJson(Map<String, dynamic> json) {
-  if (json["country"] != null) {
-  final v = json["country"];
-  final arr0 = <CountryModelDataCountry>[];
-  v.forEach((v) {
-  arr0.add(CountryModelDataCountry.fromJson(v));
-  });
-    country = arr0;
+    if (json["country"] != null) {
+      final v = json["country"];
+      final arr0 = <CountryModelDataCountry>[];
+      v.forEach((v) {
+        arr0.add(CountryModelDataCountry.fromJson(v));
+      });
+      country = arr0;
     }
   }
   Map<String, dynamic> toJson() {
@@ -87,9 +87,9 @@ class CountryModelData {
     if (country != null) {
       final v = country;
       final arr0 = [];
-  v!.forEach((v) {
-  arr0.add(v!.toJson());
-  });
+      v!.forEach((v) {
+        arr0.add(v.toJson());
+      });
       data["country"] = arr0;
     }
     return data;
@@ -128,7 +128,8 @@ class CountryModel {
   });
   CountryModel.fromJson(Map<String, dynamic> json) {
     success = json["success"];
-    data = (json["data"] != null) ? CountryModelData.fromJson(json["data"]) : null;
+    data =
+        (json["data"] != null) ? CountryModelData.fromJson(json["data"]) : null;
     message = json["message"]?.toString();
   }
   Map<String, dynamic> toJson() {

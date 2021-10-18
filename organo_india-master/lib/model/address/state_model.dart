@@ -73,19 +73,19 @@ class StateModelData {
 } 
 */
 
-  List<StateModelDataState?>? state;
+  List<StateModelDataState>? state;
 
   StateModelData({
     this.state,
   });
   StateModelData.fromJson(Map<String, dynamic> json) {
-  if (json["state"] != null) {
-  final v = json["state"];
-  final arr0 = <StateModelDataState>[];
-  v.forEach((v) {
-  arr0.add(StateModelDataState.fromJson(v));
-  });
-    state = arr0;
+    if (json["state"] != null) {
+      final v = json["state"];
+      final arr0 = <StateModelDataState>[];
+      v.forEach((v) {
+        arr0.add(StateModelDataState.fromJson(v));
+      });
+      state = arr0;
     }
   }
   Map<String, dynamic> toJson() {
@@ -93,9 +93,9 @@ class StateModelData {
     if (state != null) {
       final v = state;
       final arr0 = [];
-  v!.forEach((v) {
-  arr0.add(v!.toJson());
-  });
+      v!.forEach((v) {
+        arr0.add(v.toJson());
+      });
       data["state"] = arr0;
     }
     return data;
@@ -135,7 +135,8 @@ class StateModel {
   });
   StateModel.fromJson(Map<String, dynamic> json) {
     success = json["success"];
-    data = (json["data"] != null) ? StateModelData.fromJson(json["data"]) : null;
+    data =
+        (json["data"] != null) ? StateModelData.fromJson(json["data"]) : null;
     message = json["message"]?.toString();
   }
   Map<String, dynamic> toJson() {

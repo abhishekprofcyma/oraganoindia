@@ -120,10 +120,10 @@ class _OtpViewState extends State<OtpView> {
                   onPressed: () async {
                     Map<String, String> map = Map();
                     map['mobile_number'] = widget.mobileNumber;
-
                     repo.registerUser(context, map).then((value) {
                       if (value.success == true) {
                         saveToken(value.data.token);
+                        // saveLogin(value.success);
                         print('registered successfully');
                       } else {
                         print('register faild');

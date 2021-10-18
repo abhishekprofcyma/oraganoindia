@@ -124,7 +124,7 @@ class _SettingConnectionScreenState extends State<SettingConnectionScreen> {
                                 ),
                                 Expanded(
                                     child: Text(
-                                  "${friend?.friend?.name}",
+                                  "${friend?..namfriend?e}",
                                   style: Theme.of(context).textTheme.subtitle1,
                                 )),
                                 OutlinedButton(

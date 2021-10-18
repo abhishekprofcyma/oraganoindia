@@ -88,7 +88,7 @@ class VillageModelData {
 } 
 */
 
-  List<VillageModelDataTahsil?>? tahsil;
+  List<VillageModelDataTahsil>? tahsil;
 
   VillageModelData({
     this.tahsil,
@@ -109,7 +109,7 @@ class VillageModelData {
       final v = tahsil;
       final arr0 = [];
   v!.forEach((v) {
-  arr0.add(v!.toJson());
+  arr0.add(v.toJson());
   });
       data["tahsil"] = arr0;
     }

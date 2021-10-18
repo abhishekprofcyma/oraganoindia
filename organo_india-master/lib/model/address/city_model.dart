@@ -82,7 +82,7 @@ class CityModelData {
 } 
 */
 
-  List<CityModelDataCity?>? city;
+  List<CityModelDataCity>? city;
 
   CityModelData({
     this.city,
@@ -103,7 +103,7 @@ class CityModelData {
       final v = city;
       final arr0 = [];
   v!.forEach((v) {
-  arr0.add(v!.toJson());
+  arr0.add(v.toJson());
   });
       data["city"] = arr0;
     }

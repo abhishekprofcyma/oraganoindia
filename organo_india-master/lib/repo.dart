@@ -24,25 +24,25 @@ class Repo {
 
   Future<CountryModel> getCountry(
       BuildContext context, Map<String, String> map) async {
-    final response = await _apiprovider.get(context, "register", map);
+    final response = await _apiprovider.get(context, "country", map);
     return CountryModel.fromJson(response);
   }
 
   Future<StateModel> postState(
       BuildContext context, Map<String, String> map) async {
-    final response = await _apiprovider.post(context, "register", map);
+    final response = await _apiprovider.post(context, "state", map);
     return StateModel.fromJson(response);
   }
 
   Future<CityModel> postCity(
       BuildContext context, Map<String, String> map) async {
-    final response = await _apiprovider.post(context, "register", map);
+    final response = await _apiprovider.post(context, "city", map);
     return CityModel.fromJson(response);
   }
 
   Future<VillageModel> postVillage(
       BuildContext context, Map<String, String> map) async {
-    final response = await _apiprovider.post(context, "register", map);
+    final response = await _apiprovider.post(context, "tahsil", map);
     return VillageModel.fromJson(response);
   }
 }
