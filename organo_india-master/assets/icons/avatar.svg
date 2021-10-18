@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="124" height="124" viewBox="0 0 124 124">
+  <g id="avatar" transform="translate(-144 -75)">
+    <path id="Intersection_1" data-name="Intersection 1" d="M-120.77,101.525C-111,90.91-86.854,85.595-73.334,85.595c13.683,0,38.253,5.443,47.782,16.316A61.871,61.871,0,0,1-73,124,61.868,61.868,0,0,1-120.77,101.525Zm21.581-54.713A25.848,25.848,0,0,1-73.334,20.957,25.848,25.848,0,0,1-47.479,46.813,25.868,25.868,0,0,1-73.334,72.667,25.869,25.869,0,0,1-99.189,46.812Z" transform="translate(279 75)"/>
+    <g id="Ellipse_14" data-name="Ellipse 14" transform="translate(144 75)" fill="none" stroke="#707070" stroke-width="1">
+      <circle cx="62" cy="62" r="62" stroke="none"/>
+      <circle cx="62" cy="62" r="61.5" fill="none"/>
+    </g>
+  </g>
+</svg>

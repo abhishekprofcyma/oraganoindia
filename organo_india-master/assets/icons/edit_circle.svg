@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="edit_circle" transform="translate(-340 -465)">
+    <g id="Ellipse_44" data-name="Ellipse 44" transform="translate(340 465)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="18" cy="18" r="18" stroke="none"/>
+      <circle cx="18" cy="18" r="17.5" fill="none"/>
+    </g>
+    <g id="Group_17" data-name="Group 17" transform="translate(1.251 9.958)">
+      <g id="Polygon_11" data-name="Polygon 11" transform="translate(350.07 482.498) rotate(-135)" fill="#707070">
+        <path d="M 3.533263683319092 3.842278718948364 L 0.8090137839317322 3.842278718948364 L 2.171138763427734 1.11802875995636 L 3.533263683319092 3.842278718948364 Z" stroke="none"/>
+        <path d="M 2.171138763427734 2.236068725585938 L 1.618033647537231 3.342278718948364 L 2.724243640899658 3.342278718948364 L 2.171138763427734 2.236068725585938 M 2.171138763427734 -1.430511474609375e-06 L 4.342278957366943 4.342278957366943 L -1.430511474609375e-06 4.342278957366943 L 2.171138763427734 -1.430511474609375e-06 Z" stroke="none" fill="#707070"/>
+      </g>
+      <path id="Path_172" data-name="Path 172" d="M0,13.572V0" transform="translate(362.498 467) rotate(45)" fill="none" stroke="#707070" stroke-width="6"/>
+    </g>
+  </g>
+</svg>
